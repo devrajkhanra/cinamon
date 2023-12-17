@@ -50,6 +50,11 @@ function initialSetup() {
         date
       );
       downloadCsvFile(
+        `https://archives.nseindia.com/content/indices/ind_nifty50list.csv`,
+        `${homeDirectory}/data/subfolders/nifty`,
+        "ind_nifty50list"
+      );
+      downloadCsvFile(
         `https://archives.nseindia.com/content/indices/ind_niftynext50list.csv`,
         `${homeDirectory}/data/subfolders/nifty`,
         "ind_niftynext50list"
