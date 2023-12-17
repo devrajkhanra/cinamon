@@ -24,7 +24,7 @@ const environment: Environment = {
         operatingSystem as OperatingSystem
       )
     ) {
-      const homeDirectory: string = os.homedir();
+      const homeDirectory: string = `${os.homedir()}/Desktop`;
       return [operatingSystem as OperatingSystem, homeDirectory];
     } else {
       console.error("Unsupported operating system");

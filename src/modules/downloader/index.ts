@@ -15,7 +15,7 @@ const downloadCsvFile = async (
 ): Promise<void> => {
   try {
     const response = await axios.get(url);
-    console.log(response);
+    // console.log(response);
     
     const file = `${fileName}.csv`;
     const filePath = path.join(folderPath, file);
