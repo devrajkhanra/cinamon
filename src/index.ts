@@ -69,6 +69,12 @@ function initialSetup() {
         `${homeDirectory}/data/subfolders/nifty`,
         "ind_niftysmallcap50list"
       );
+      // FNO List
+      // downloadCsvFile(
+      //   `https://nsearchives.nseindia.com/content/fo/fo_mktlots.csv`,
+      //   `${homeDirectory}/data/subfolders/nifty`,
+      //   "ind_niftyfnolist"
+      // );
     }
   } else {
     // Handle the case when the operating system is unsupported
